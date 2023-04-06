@@ -29,7 +29,7 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/Zinminhtun-de/front-end-powerful-boilerplate-z-v.1.0.0.git
+  git clone https://github.com/Zinminhtun-de/react-ts-bolierplate-v-1.0.0.git
 ```
 
 Go to the project directory
