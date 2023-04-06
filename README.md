@@ -35,7 +35,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd front-end-powerful-boilerplate-z-v.1.0.0
+  cd react-ts-bolierplate-v-1.0.0
 ```
 
 Install dependencies
