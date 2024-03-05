@@ -19,7 +19,14 @@
     "paths": {
       "~/*": ["./*"]
     },
+    "types": ["vitest/globals"]
   },
-  "include": [".eslintrc.cjs","src","tailwind.config.cjs","postcss.config.cjs"],
+  "include": [
+    ".eslintrc.cjs",
+    "src",
+    "tailwind.config.cjs",
+    "postcss.config.cjs",
+    ".src/test/setup.ts"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
