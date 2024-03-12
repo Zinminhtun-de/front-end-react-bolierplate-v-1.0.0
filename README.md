@@ -18,7 +18,7 @@
 | React-query | :white_check_mark: |
 | Twin.macro | :white_check_mark: |
 | Axios | :white_check_mark: |
-| React-query | :white_check_mark: |
+| Tanstack/react-query | :white_check_mark: |
 
 
 
