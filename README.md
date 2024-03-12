@@ -19,6 +19,7 @@
 | Twin.macro | :white_check_mark: |
 | Axios | :white_check_mark: |
 | Tanstack/react-query | :white_check_mark: |
+| Unit Testing (Vitest && Jest) | :white_check_mark: |
 
 
 
