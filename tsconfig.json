@@ -3,9 +3,9 @@
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "allowJs": false,
+    "allowJs": true,
     "skipLibCheck": true,
-    "esModuleInterop": false,
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
@@ -14,12 +14,19 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
-    "baseUrl": "./src",
+    "jsx": "preserve",
+    "noImplicitAny": true,
+"strictFunctionTypes": true,
+"strictPropertyInitialization": true,
+"noImplicitThis": true,
+"alwaysStrict": true,
+"baseUrl": "src",
     "paths": {
-      "~/*": ["./*"]
+      "@/*": [
+        "*"
+      ]
     },
-    "types": ["vitest/globals"]
+   
   },
   "include": [
     ".eslintrc.cjs",
